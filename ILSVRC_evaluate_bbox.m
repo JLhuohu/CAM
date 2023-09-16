@@ -13,7 +13,7 @@ load('sizeImg_ILSVRC2014.mat');
 % load([datasetPath '/imageListTest.mat']);
 
 
-nImgs = size(imageList,1);
+nImgs = size(imageList,2);
 
 ground_truth_file='imagenet_toolkit/ILSVRC2014_devkit/data/ILSVRC2014_clsloc_validation_ground_truth.txt';
 gt_labels = dlmread(ground_truth_file);
